@@ -1,0 +1,49 @@
+{
+    "gender": {
+        "0": "Male",
+        "1": "Female"
+    },
+    "education": {
+        "0": "Illiterate",
+        "1": "Primary school",
+        "2": "Informally Literate",
+        "3": "Secondary school",
+        "4": "Higher Secondary + Graduate"
+    },
+    "spouse_edu": {
+        "0": "Illiterate",
+        "1": "Primary school",
+        "2": "Informally Literate",
+        "3": "Secondary school",
+        "4": "Higher Secondary + Graduate"
+    },
+    "category": {
+        "0": "SC",
+        "1": "OBC",
+        "2": "general",
+        "3": "Others",
+        "4": "ST"
+    },
+    "religion": {
+        "0": "Hindu",
+        "1": "Muslim",
+        "2": "Christian + Others"
+    },
+    "marital_status": {
+        "0": "Widowed",
+        "1": "Married",
+        "2": "Divorced/seperated"
+    },
+    "age_bin": {
+        "0": "45-55",
+        "1": "56-65",
+        "2": "66-75",
+        "3": "Above75"
+    },
+    "hhold_asset_bin": {
+        "0": "0-30",
+        "1": "31-60",
+        "2": "61-90",
+        "3": "Missing"
+    }
+}
