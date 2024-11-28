@@ -1,19 +1,20 @@
 import streamlit as st
 import pandas as pd
+import joblib
 import json
 import os
 
 # Get the current working directory of the Streamlit app
 app_directory = os.path.dirname(os.path.abspath(__file__))
 
-# # Load the trained model using the relative path
-# model_path = os.path.join(app_directory, 'xgb_model_ov.pkl')
-# model = joblib.load(model_path)
+# Load the trained model using the relative path
+model_path = os.path.join(app_directory, 'xgb_model_ov.pkl')
+model = joblib.load(model_path)
 
-import pickle
-# Save model
-with open('model.pkl', 'wb') as file:
-    pickle.dump('xgb_model_ov.pkl', file)
+# import pickle
+# # Save model
+# with open('model.pkl', 'wb') as file:
+#     pickle.dump('xgb_model_ov.pkl', file)
 
 
 # Load column mappings from JSON file using the relative path
